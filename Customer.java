@@ -3,3 +3,24 @@
 *Authors: Angela Gaudio
 *Version: 11/30/2018
 */
+
+
+public class Customer
+{
+    String uniqueName;
+    int itemsInCart;
+    int timeEntered;
+  
+    class Customer()
+    {
+        uniqueName = null;
+        itemsInCart = 0;
+    }
+  
+    class Customer(String name, int timeEntered)
+    {
+        uniqueName = name;
+        itemsInCart = 0;
+        this.timeEntered = timeEntered;
+    }
+}
