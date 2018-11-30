@@ -3,3 +3,22 @@
 *Authors: Angela Gaudio
 *Version: 11/30/2018
 */
+
+
+public class Customer
+{
+    String uniqueName;
+    int itemsInCart;
+  
+    class Customer()
+    {
+        uniqueName = null;
+        itemsInCart = 0;
+    }
+  
+    class Customer(String name)
+    {
+        uniqueName = name;
+        itemsInCart = 0;
+    }
+}
