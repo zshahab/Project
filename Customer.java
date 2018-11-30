@@ -17,9 +17,10 @@ public class Customer
         itemsInCart = 0;
     }
   
-    class Customer(String name)
+    class Customer(String name, int timeEntered)
     {
         uniqueName = name;
         itemsInCart = 0;
+        this.timeEntered = timeEntered;
     }
 }
