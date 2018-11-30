@@ -38,6 +38,6 @@ public class Item
       
       public String toString()
       {
-          return itemName + " with + stock + " items.";
+          return itemName + " with " + stock + " items.";
       }
 }
