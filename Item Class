@@ -1,5 +1,0 @@
-/*
-*This class will hold references to items that are in the store and will contain two parameters: int stock and String name
-*Authors: Angela Gaudio
-*Version: 11/30/2018
-*/
