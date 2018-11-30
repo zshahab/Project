@@ -9,6 +9,7 @@ public class Customer
 {
     String uniqueName;
     int itemsInCart;
+    int timeEntered;
   
     class Customer()
     {
