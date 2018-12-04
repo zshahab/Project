@@ -39,10 +39,8 @@ public class ListArrayBased<T t> implements ListInterface
 
     public void add(int index, Object item)throws  ListIndexOutOfBoundsException
     {
-	if (numItems > items.length)
-        {
-            throw new ListException("ListException on add");
-        }  // end if
+	if (numItems == items.length)
+        	resizeArray();
         if (index >= 0 && index <= numItems)
         {
             // make room for new element by shifting all items at
