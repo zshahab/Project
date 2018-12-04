@@ -101,12 +101,12 @@ public class ListArrayBased<T t> implements ListInterface
     } //end remove
     
     private void resizeArray() 	
-	  {
-		  T [] temp = (T[]) new Object[items.length*items.length];
-		  for(int i = 0; i < items.length; i++)
-		  {
-		  	temp[i] = items[i];
-		  }
-		  items = temp;
-	  }
+    {
+	T [] temp = (T[]) new Object[items.length*items.length];
+	for(int i = 0; i < items.length; i++)
+	{
+		temp[i] = items[i];
+	}
+	items = temp;
+    }
 }
