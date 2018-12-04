@@ -36,6 +36,11 @@ public class Item
           stock = stock + newAmount;
       }
       
+      public void removeOneItem()
+      {
+            stock--;
+      }
+      
       public String toString()
       {
           return itemName + " with + stock + " items.";
