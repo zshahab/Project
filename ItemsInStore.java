@@ -7,7 +7,14 @@
 
 public class ItemsInStore
 {
+    ListArrayBased<Item> items;
     public ItemsInStore()
     {
+        items = new ListArrayBased<>();
+    }
+    
+    public void restockItem(String itemName, int amount)
+    {
+        
     }
 }
