@@ -31,9 +31,10 @@ public class Item
           return stock;
       }
       
-      public void setStock(int newAmount)
+      public int setStock(int newAmount)
       {
           stock = stock + newAmount;
+          return stock;
       }
       
       public String toString()

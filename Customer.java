@@ -1,9 +1,3 @@
-/*
-*This class will contain a reference to the Customer within the Shopping Center it will have: String uniqueName, int timeEntered and int amountInCart
-*Authors: Angela Gaudio
-*Version: 11/30/2018
-*/
-
 
 public class Customer
 {
@@ -11,19 +5,23 @@ public class Customer
     int itemsInCart;
     int timeEntered;
   
-    class Customer()
+    public Customer()
     {
         uniqueName = null;
         itemsInCart = 0;
     }
   
-    class Customer(String name, int timeEntered)
+    public Customer(String name, int timeEntered)
     {
         uniqueName = name;
         itemsInCart = 0;
         this.timeEntered = timeEntered;
     }
     
+    public void resetTime(int timeEntered)
+    {
+    	this.timeEntered = timeEntered;
+    }
     public String getName()
     {
         return uniqueName;
@@ -51,6 +49,6 @@ public class Customer
     
     public String toString()
     {
-        return "Customer " + uniqueName + " with " + itemInCart + " items";
+        return "Customer " + uniqueName + " with " + itemsInCart + " items";
     }
 }
